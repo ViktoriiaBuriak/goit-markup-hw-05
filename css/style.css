@@ -524,7 +524,7 @@ img {
   color: #ffffff;
   font-family: inherit;
   font-size: 12px;
-  line-height: 0.02;
+  line-height: 1.5;
   letter-spacing: 0.04em;
   padding: 8px 16px;
 }
@@ -543,7 +543,7 @@ img {
   cursor: pointer;
   color: #ffffff;
   text-align: center;
-  font-family: Roboto;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -764,7 +764,6 @@ img {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
-  display: flex;
   justify-content: center;
   align-items: center;
   fill: transparent;
