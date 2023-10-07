@@ -451,10 +451,6 @@ img {
   max-width: 264px;
 }
 
-.footer-social {
-  margin-right: 80px;
-}
-
 .footer-social-paragraf {
   color: #ffffff;
   font-size: 16px;
@@ -551,6 +547,12 @@ img {
   border-radius: 4px;
   border: none;
   background-color: #4d5ae5;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.subscribe-button:hover,
+.subscribe-button:focus {
+  background-color: #404bbf;
 }
 
 .subscribe-icon {
@@ -659,6 +661,11 @@ img {
   margin: 0 auto;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-button:hover,
+.form-button:focus {
+  background-color: #404bbf;
 }
 
 .modal-field {
